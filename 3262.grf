@@ -1,0 +1,57 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -39.9884821565962
+xMax = 1194.5794190734
+xTickUnit = 50
+xGridUnit = 50
+xLabel = (R+R0)^2, 10^(-6) Ом^2
+yMin = -0.840971770000001
+yMax = 7.80100354
+yTickUnit = 1
+yGridUnit = 1
+yLabel = (1/θ)^2
+AxesColor = clBlue
+GridColor = 0x00FF9999
+LabelFont = Times New Roman,26,clBlack,B
+ShowLegend = 0
+Radian = 1
+Title = Зависимость (1/θ)^2 от ((R+R0)^2)
+
+[PointSeries1]
+FillColor = clRed
+LineColor = clBlue
+Size = 4
+Style = 0
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 8
+Points = 159,0.25;213.5,0.72;276,0.38;346,0.5;425,0.56;511,0.58;557.5,0.69;605.6,0.9;
+LegendText = Ряд 1
+
+[Label1]
+Placement = 0
+Pos = 334.341143868657;1.60510457628352
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs72 y=0.0014*x\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Func1]
+FuncType = 0
+y = 0.00139637*x+0
+LegendText = f(x)=0.0014*x+0; R²=0.2783
+Color = clLime
+
+[Data]
+TextLabelCount = 1
+FuncCount = 1
+PointSeriesCount = 1
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
